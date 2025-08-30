@@ -4,6 +4,22 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.headerButton{
+  transition: all 0.5s ease;
+}
+.headerButton:hover{
+transform: scale(1.1);
+}
+.others a{
+  transition: all 0.4s ease;
+}
+.others a:hover{
+  transform: translateY(-7px);
+  background-color: #5ca9e8;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
 
 .dix {
   height: 60px;
@@ -558,8 +574,12 @@
   padding: 50px 20px;
   background: #f9fbfd;
   font-family: Arial, sans-serif;
+ 
 }
-
+.Anuoluwapo{
+   display: flex;
+  justify-content: center;
+}
 .SubSection5 h1 {
   font-size: 30px;
   font-weight: bold;
@@ -570,6 +590,8 @@
   margin-bottom: 1rem;
   color: #555;
   font-size: 15px;
+  width: 50%;
+  line-height: 200%;
 }
 
 .Section5 button {
